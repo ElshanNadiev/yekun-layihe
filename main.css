@@ -56,7 +56,14 @@ border-top-color: rgb(97, 122, 143);
 
 .item-img{
     margin-top: 13px;
+
 }
+.logo {
+    width: 50px;
+    height: 45px;
+    
+}
+
 .item-btn {
     background: transparent;
     width: 80px;
