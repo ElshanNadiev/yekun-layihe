@@ -20,6 +20,7 @@ width: 1168px;
 height: 65px;
 margin: 0 auto;
 display: flex;
+justify-content: space-around;
 background-color: rgb(80, 108, 186);
 align-items: center;
 border: 1px solid lightblue;
@@ -42,6 +43,7 @@ border-top-color: rgb(97, 122, 143);
     border-right-color: aliceblue;
     border-bottom-color: aliceblue;
     border-top-color: rgb(97, 122, 143);
+    text-decoration: none;
     
     
 }
@@ -52,6 +54,8 @@ border-top-color: rgb(97, 122, 143);
     margin-right: 17px;
     color: aliceblue;
     padding: 30px;
+    
+  
 }
 
 .item-img{
@@ -79,12 +83,44 @@ border-top-color: rgb(97, 122, 143);
     cursor: pointer;
 
 }
+
+a{
+   color: inherit;
+   font:inherit;
+   text-decoration: none;
+}
+.al{
+    color: inherit;
+   font:inherit;
+   text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-left-color: rgb(97, 122, 143);
+    border-right-color: aliceblue;
+    border-bottom-color: aliceblue;
+    border-top-color: rgb(97, 122, 143);
+    transition: 1s;
+}
+.al1{
+    text-align: right;
+}
+.al:hover{
+    background:linear-gradient(0deg,rgb(121, 48, 148), rgb(80, 108, 186)) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    transform: scale(1s);
+    color: white;
+    padding: 4px;
+}
+
+
+
 .nature{
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
-     
 }
+
 .nnn{
     width: 250px;
     height: 300px;
@@ -94,32 +130,95 @@ border-top-color: rgb(97, 122, 143);
     border-radius: 2px;
     background-color: rgba(255,255,255,0.1);
     padding: 10px;
-
+    transition: 1s  ;
+    
+}
+.nature1:hover{
+    transform: scale(1.1);
+    
 }
 
-.nnn2{
-    width: 250px;
-    height: 300px;
+
+
+.axtaris{
+    width: 300px;   
+   margin: 0 auto;
+    position: relative;
 }
-.nature2{
+
+.search{
+    width: 100%;
+ height:35px;
+ /* background-color:rgba(255,255,255,0.1);  */
+ background: linear-gradient (0deg,rgb(121, 48, 148), rgb(80, 108, 186));
+ border: 1px solid black;
+ border-radius: 10px;
+ border-left-color: rgb(97, 122, 143);
+ border-right-color: rgb(206, 206, 206);
+ border-bottom-color: rgb(208, 211, 214);
+ border-top-color: rgb(97, 122, 143);
+ margin: 10px;
+ background-color: rgb(225, 225, 225);
+ padding: 20px;
+}
+
+.search1{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position:absolute;
+    right: 0;
+    top: 22px;
+    color: darkgrey;
+    
+}
+.simyaci-p{
+    width: 65%;
     border: 1px solid black;
-    border-radius: 2px;
-    background-color: rgba(255,255,255,0.1);
+    border-radius:5px;
+    border-color: aliceblue;
     padding: 10px;
-  
-
 }
 
-.nnn3{
-    width: 250px;
-    height: 300px;
+.ing-pasient{
+    
+        width: 65%;
+        border: 1px solid black;
+        border-radius:5px;
+        border-color: aliceblue;
+        padding: 10px;  
+        color: aliceblue; 
 }
-.nature3{
+
+.agbayraq{
+    
+    width: 60%;
     border: 1px solid black;
-    border-radius: 2px;
-    background-color: rgba(255,255,255,0.1);
-    padding: 10px;
-  
-
+    border-radius:5px;
+    border-color: aliceblue;
+    padding: 10px;  
+    color: aliceblue; 
+    
 }
 
+.ufuq{
+    width: 65%;
+    border: 1px solid black;
+    border-radius:5px;
+    border-color: aliceblue;
+    padding: 10px;  
+    color: aliceblue; 
+}
+.beyaz{
+    width: 65%;
+    border: 1px solid black;
+    border-radius:5px;
+    border-color: aliceblue;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.book{
+    width: 80%;
+    margin: 100px auto;
+}
